@@ -1,6 +1,17 @@
 {
   "users": [
     {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "password": "$2b$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcg7b3XeKeUxWdeS86E36P4/TVG2",
+      "role": "admin",
+      "active": true,
+      "createdAt": "2024-01-15T08:30:00Z",
+      "lastLogin": "2026-02-03T10:45:00Z",
+      "department": "Engineering"
+    },
+    {
       "id": 2,
       "name": "Bob Smith",
       "email": "bob.smith@example.com",
@@ -13,18 +24,18 @@
     },
     {
       "id": 3,
-      "name": "jan van dorp",
-      "email": "janvandorp@gmail.com",
+      "name": "Carol Williams",
+      "email": "carol.williams@example.com",
       "password": "$2b$10$X7qo8uLOickgx2ZMRZoMyeIjZAgcg7b3XeKeUxWdeS86E36P4/TVG2",
       "role": "moderator",
-      "active": false,
+      "active": true,
       "createdAt": "2024-03-10T11:00:00Z",
       "lastLogin": "2026-02-01T09:30:00Z",
       "department": "Content"
     },
     {
       "id": 4,
-      "name": "Joseph Townman",
+      "name": "David Brown",
       "email": "david.brown@example.com",
       "password": "$2b$10$Y6qo8uLOickgx2ZMRZoMyeIjZAgcg7b3XeKeUxWdeS86E36P4/TVG2",
       "role": "user",
@@ -35,14 +46,14 @@
     },
     {
       "id": 5,
-      "name": "marijke van western",
-      "email": "marijkevanwestern@example.com",
-      "password": "$2b$10$LKi7xwJFALpHzqt0FQw8xOD1nLGTDTncqDbe9tk9DUrrIL3ON5jmW",
-      "role": "moderatore",
+      "name": "Emma Davis",
+      "email": "emma.davis@example.com",
+      "password": "$2b$10$Z5qo8uLOickgx2ZMRZoMyeIjZAgcg7b3XeKeUxWdeS86E36P4/TVG2",
+      "role": "admin",
       "active": true,
       "createdAt": "2024-01-08T07:20:00Z",
       "lastLogin": "2026-02-03T08:15:00Z",
-      "department": "Food Science"
+      "department": "Engineering"
     },
     {
       "id": 6,
@@ -67,48 +78,37 @@
       "department": "Content"
     },
     {
+      "id": 8,
+      "name": "Henry Taylor",
+      "email": "henry.taylor@example.com",
+      "password": "$2b$10$C2qo8uLOickgx2ZMRZoMyeIjZAgcg7b3XeKeUxWdeS86E36P4/TVG2",
+      "role": "user",
+      "active": false,
+      "createdAt": "2024-07-22T16:00:00Z",
+      "lastLogin": "2025-12-15T11:30:00Z",
+      "department": "Finance"
+    },
+    {
       "id": 9,
-      "name": "Tom Jerry",
-      "email": "tomjerry@example.com",
+      "name": "Iris Anderson",
+      "email": "iris.anderson@example.com",
       "password": "$2b$10$D1qo8uLOickgx2ZMRZoMyeIjZAgcg7b3XeKeUxWdeS86E36P4/TVG2",
       "role": "user",
       "active": true,
       "createdAt": "2024-08-05T09:45:00Z",
       "lastLogin": "2026-02-03T11:20:00Z",
-      "department": "ICT"
+      "department": "Marketing"
     },
     {
       "id": 10,
-      "name": "Jim Thomas",
-      "email": "jimthomas@gmail.com",
-      "password": "$2b$10$fJOn9SFOf3R6fVotlx..ruwRg92M7.WERtBTq6a/L9elqtIFXltry",
-      "role": "user",
+      "name": "Jack Wilson",
+      "email": "jack.wilson@example.com",
+      "password": "$2b$10$E0qo8uLOickgx2ZMRZoMyeIjZAgcg7b3XeKeUxWdeS86E36P4/TVG2",
+      "role": "moderator",
       "active": true,
-      "createdAt": "2026-03-10T23:55:06.427Z",
-      "lastLogin": null,
-      "department": "Social Science"
-    },
-    {
-      "id": 11,
-      "name": "Henok Tota",
-      "email": "henoktota@gmail.com",
-      "password": "$2b$10$3tayN3ydfMi32Kt4Vf4rPuQBd3hyr2F4iVnC.JjShUEitiEgg1tay",
-      "role": "student",
-      "active": true,
-      "createdAt": "2026-03-11T07:41:34.250Z",
-      "lastLogin": null,
-      "department": "Animal science"
-    },
-    {
-      "id": 12,
-      "name": "Joel lucas",
-      "email": "joellucas@gmail.com",
-      "password": "$2b$10$SddQrXivrzw4M9o0EcN0sOnkC0WraHs3PSm1Y85raB8OHLG6Z9cAe",
-      "role": "user",
-      "active": true,
-      "createdAt": "2026-03-11T08:04:28.759Z",
-      "lastLogin": null,
-      "department": "IT"
+      "createdAt": "2024-09-14T12:30:00Z",
+      "lastLogin": "2026-02-03T13:00:00Z",
+      "department": "Engineering"
     }
   ]
 }
